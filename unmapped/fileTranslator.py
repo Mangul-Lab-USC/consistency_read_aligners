@@ -52,7 +52,7 @@ for file in f:
             finalFile.write(lineList[1])
             # The famous flag
             flag = True
-        else:
+        else:l
             continue
             # Formatting
     finalFile.write("\n")
