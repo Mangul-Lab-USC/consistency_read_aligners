@@ -45,7 +45,7 @@ for file in f:
         # can have multiple "ID:". Thus it is still a work in progress. (10/25/2019)
         # Yet, if it finds the ID, then we know that the reads are coming next. Thus, we take the reads after that by
         # setting the flag to be true. This will be improved.
-        elif line.find("Tool: ") != -1:
+        elif line.find("ID:") != -1:
             # Splits the line string and places the pieces of that string into a list.
             lineList = line.split()
             # Writes to identity of the tool to the file.

@@ -29,14 +29,14 @@
 
 #nucmer -p results/short.unmapped.mummer reference.fasta reads.toy.example.fasta
 
-bowtie-build reference.fasta reference
-bowtie -S reference reads.toy.example.short.fastq > results/short.unmapped.bowtie.sam    
+/u/home/s/shahar/anaconda3/bin/bowtie-build reference.fasta reference
+/u/home/s/shahar/anaconda3/bin/bowtie -S reference reads.toy.example.short.fastq > results/short.unmapped.bowtie.sam    
 
-bowtie2-build reference.fasta reference.fasta 
-bowtie2 -x reference.fasta -U reads.toy.example.fastq > results/short.unmapped.bowtie2.sam
+/u/home/s/shahar/anaconda3/bin/bowtie2-build reference.fasta reference.fasta 
+/u/home/s/shahar/anaconda3/bin/bowtie2 -x reference.fasta -U reads.toy.example.fastq > results/short.unmapped.bowtie2.sam
 
-bwa index reference.fasta
-bwa mem reference.fasta reads.toy.example.fastq > results/short.unmapped.bwa.sam
+/u/home/s/shahar/anaconda3/bin/bwa index reference.fasta
+/u/home/s/shahar/anaconda3/bin/bwa mem reference.fasta reads.toy.example.fastq > results/short.unmapped.bwa.sam
 
 #erne-create --fasta reference.fasta --output-prefix ref
 #erne-map --force-standard --sam --reference ref.ebh --query1 reads.toy.example.short.fastq --output results/short.unmapped.erne.sam
@@ -51,7 +51,7 @@ bwa mem reference.fasta reads.toy.example.fastq > results/short.unmapped.bwa.sam
 
 cp reads.toy.example.fastq reads.toy.example.fq
 cp reference.fasta reference.fa
-#minialign -xont.1dsq reference.fa reads.toy.example.fq > results/short.unmapped.minialign.sam
+/u/home/s/shahar/anaconda3/bin/minialign -xont.1dsq reference.fa reads.toy.example.fq > results/short.unmapped.minialign.sam
 
 #lastdb -uNEAR -R01 reference reference.fasta
 #lastal -Q1 reference reads.toy.example.fastq | last-split> results/short.unmapped.last.maf
