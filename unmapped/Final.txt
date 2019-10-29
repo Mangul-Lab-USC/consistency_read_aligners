@@ -1,3 +1,3 @@
 
 
-
+ID:bwa, short1, Reference, short2, Reference, short3, Reference, long1, Reference, long2, Reference, long3, Reference, unmappedlong2, *, unmappedlong3, *, 

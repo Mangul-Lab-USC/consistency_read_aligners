@@ -38,6 +38,7 @@ for file in f:
             # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
             # whether it was mapped or unmapped.
             finalFile.write(lineList[2])
+	    finalFile.write(", ")
         # So! We've finally gotten to the flag.
         # Essentially the flag is there to help identify the actual tool that we are using.
         # Before looking at the reads, the program will to identify what the tool they're currently looking at is.

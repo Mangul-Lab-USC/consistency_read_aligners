@@ -51,7 +51,7 @@ for i in range(3):
     fastqFile.write(mappedLongReads[i])
     fastqFile.write("\n")
     fastqFile.write("+\n")
-    for j in range(75):
+    for j in range(1000):
         fastqFile.write("I")
     fastqFile.write("\n")
 for i in range(3):
@@ -71,7 +71,7 @@ for i in range(3):
     fastqFile.write(unmappedLongReads[i])
     fastqFile.write("\n")
     fastqFile.write("+\n")
-    for j in range(75):
+    for j in range(1000):
         fastqFile.write("I")
     fastqFile.write("\n")
 fastqFile.close()
@@ -164,7 +164,7 @@ for i in range(5):
     fastqLongFile.write(mappedLongReads[i])
     fastqLongFile.write("\n")
     fastqLongFile.write("+\n")
-    for j in range(75):
+    for j in range(1000):
         fastqLongFile.write("I")
     fastqLongFile.write("\n")
 for i in range(5):
@@ -174,7 +174,7 @@ for i in range(5):
     fastqLongFile.write(unmappedLongReads[i])
     fastqLongFile.write("\n")
     fastqLongFile.write("+\n")
-    for j in range(75):
+    for j in range(1000):
         fastqLongFile.write("I")
     fastqLongFile.write("\n")
 fastqLongFile.close()
