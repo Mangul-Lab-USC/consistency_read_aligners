@@ -34,7 +34,7 @@ for file in f:
             # Currently this program is flawed (10/25/2019). I will be working to make this portion
             # format to a csv file.
             # CSV formatting
-            finalFile.write(",")
+            finalFile.write(", ")
             # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
             # whether it was mapped or unmapped.
             finalFile.write(lineList[2])
@@ -45,11 +45,12 @@ for file in f:
         # can have multiple "ID:". Thus it is still a work in progress. (10/25/2019)
         # Yet, if it finds the ID, then we know that the reads are coming next. Thus, we take the reads after that by
         # setting the flag to be true. This will be improved.
-        elif line.find("ID:") != -1:
+        elif line.find("Tool: ") != -1:
             # Splits the line string and places the pieces of that string into a list.
             lineList = line.split()
             # Writes to identity of the tool to the file.
             finalFile.write(lineList[1])
+            finalFile.write(", ")
             # The famous flag
             flag = True
         else:
