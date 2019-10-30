@@ -1,13 +1,22 @@
 @HD	VN:1.0	SO:unknown
-@SQ	SN:Reference	LN:10239
-@PG	ID:graphmap	PN:graphmap	CL:graphmap -r reference.fasta -d reads.toy.example.fastq	VN:v0.5.2 compiled on Aug  6 2018 at 00:05:00
-R50	4	*	0	255	*	*	0	0	ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-50	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:50	ZR:i:0
-R30	4	*	0	255	*	*	0	0	ATCGTTAGTGGACTCCTTGTCATCTTCCCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-30	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:30	ZR:i:0
-R20	4	*	0	255	*	*	0	0	GTGTAGGACGGTAGAAGGGC	~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-20	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:20	ZR:i:0
-R10	4	*	0	255	*	*	0	0	CTGGGCAGCC	~~~~~~~~~~	NM:i:-1	AS:i:-10	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:10	ZR:i:0
-R60	4	*	0	255	*	*	0	0	ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-60	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:60	ZR:i:0
-R40	4	*	0	255	*	*	0	0	CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-40	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:40	ZR:i:0
-R70	4	*	0	255	*	*	0	0	ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-70	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:70	ZR:i:0
-R100	0	Reference	9159	40	100M	*	0	0	GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:100	NM:i:0	AS:i:500	H0:i:1	ZE:f:2.80392e-31	ZF:f:0.488747	ZQ:i:100	ZR:i:10239
-R90	0	Reference	4683	40	90M	*	0	0	TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:90	NM:i:0	AS:i:450	H0:i:1	ZE:f:8.73995e-28	ZF:f:0.476482	ZQ:i:90	ZR:i:10239
-R80	0	Reference	3788	40	80M	*	0	0	TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:80	NM:i:0	AS:i:400	H0:i:1	ZE:f:2.69064e-24	ZF:f:0.462692	ZQ:i:80	ZR:i:10239
+@SQ	SN:Reference	LN:10000
+@PG	ID:graphmap	PN:graphmap	CL:../../../bin/graphmap -r reference.fasta -d reads.toy.example.fastq	VN:v0.5.2 compiled on Aug  6 2018 at 00:05:00
+R20	4	*	0	255	*	*	0	0	GAAAACACGAGGACTGAGTT	~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-20	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:20	ZR:i:0
+R10	4	*	0	255	*	*	0	0	CGTCGCCAAG	~~~~~~~~~~	NM:i:-1	AS:i:-10	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:10	ZR:i:0
+R30	4	*	0	255	*	*	0	0	CGCTTATTAGTCGCGCTAAGGACCATCTTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-30	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:30	ZR:i:0
+R25	4	*	0	255	*	*	0	0	CTTCCTACTCCGAAAAGTGATCCTT	~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-25	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:25	ZR:i:0
+R35	4	*	0	255	*	*	0	0	TGGCTCCTTGTATGGATTTCCATCGCTATCTCTAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-35	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:35	ZR:i:0
+R15	4	*	0	255	*	*	0	0	GTGGTCGACCAGACT	~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-15	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:15	ZR:i:0
+R50	4	*	0	255	*	*	0	0	CGGGTAAGGGGCTCGTTCAAAAGCCTCTAAAATCGTCGTCTTCGAAATAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-50	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:50	ZR:i:0
+R60	4	*	0	255	*	*	0	0	TTAGGACGATTCGCAAGGTATGTAGGGTACTTCGCTGGACATCCATGAGCTCTCACATGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-60	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:60	ZR:i:0
+R55	4	*	0	255	*	*	0	0	GGGTCGTTCTTCCAGAGGATATGTTGTGTGCGATAGATAGGTTCCGATTAGTCGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-55	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:55	ZR:i:0
+R45	4	*	0	255	*	*	0	0	GAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-45	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:45	ZR:i:0
+R65	4	*	0	255	*	*	0	0	CGCCGTAGGGCGGCAGATGCAAATTTTGGGTCTTTCGGATCGAAGACTGTCTGGCCCCGATACTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-65	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:65	ZR:i:0
+R40	4	*	0	255	*	*	0	0	TTGATCCCTGAAATCCGTGGTTCATTCACCATATCCCTGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-40	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:40	ZR:i:0
+R70	4	*	0	255	*	*	0	0	GCGCGCGTGAATAAAGGGACATAGGTGAATCTGTCCGGAGAAAAGTCAAAATATCCAGCGGGTTGAGAGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-70	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:70	ZR:i:0
+R75	4	*	0	255	*	*	0	0	GCCACGATACTGATGTATCGGAATATAAGGAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:-1	AS:i:-75	H0:i:0	ZE:f:3.40282e+38	ZF:f:0	ZQ:i:75	ZR:i:0
+R80	0	Reference	2579	40	80M	*	0	0	CTGAGGTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:80	NM:i:0	AS:i:400	H0:i:1	ZE:f:2.62784e-24	ZF:f:0.463878	ZQ:i:80	ZR:i:10000
+R95	0	Reference	6165	40	95M	*	0	0	GAAAAGGCATGACTCTCGTTGAGGCGGGCGTGAGGCCGTTCCCCTTAAGGATAGCAGGACTGGAGCGTGGGGGTAGGGCAAAGTGCTCCAGAGCA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:95	NM:i:0	AS:i:475	H0:i:1	ZE:f:1.53102e-29	ZF:f:0.484022	ZQ:i:95	ZR:i:10000
+R90	0	Reference	7530	40	90M	*	0	0	CGCGCGCATCTCCAGGACCCAGATGATTTGGAGTGGGGGGGCTCCAAAGTAAGGACATCTCCTACGCCCAGATTGGGACCCGCCCAGCCC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:90	NM:i:0	AS:i:450	H0:i:1	ZE:f:8.53594e-28	ZF:f:0.477704	ZQ:i:90	ZR:i:10000
+R100	0	Reference	1239	40	100M	*	0	0	TCCGTGCCCGCCTAGCGACTATAACGGGCATCAAACCGTCTCGCAAGAACCACTCAAAATTACGCCAAGGGCGTCCGGAGACGGCCAATGGTTAATGACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:100	NM:i:0	AS:i:500	H0:i:1	ZE:f:2.73847e-31	ZF:f:0.49	ZQ:i:100	ZR:i:10000
+R85	0	Reference	2584	40	85M	*	0	0	GTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTTGTAGAGTCAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	MD:Z:85	NM:i:0	AS:i:425	H0:i:1	ZE:f:4.74436e-26	ZF:f:0.471005	ZQ:i:85	ZR:i:10000

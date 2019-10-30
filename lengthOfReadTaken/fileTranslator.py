@@ -1,6 +1,6 @@
 # Please change this according to the directory you are currently using.
 # Please revise the "files_to_parse.txt" accordingly.
-list_of_files = "/Users/dywk/PycharmProjects/samfileparser/results/files_to_parse.txt"
+list_of_files = "/u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/files.txt"
 # This opens the "files_to_parse.txt", this is the list of files that we want to parse.
 f = open(list_of_files, "r")
 # This opens the file that we're going to write the data to.
@@ -24,22 +24,6 @@ for file in f:
     # For each line in the file we're going to sift through the line to get the information that we want.
     # What we want is to know whether the reads have been mapped or not mapped. A "*" means unmapped and "REFERENCE" means mapped.
     for line in lines:
-        # We'll get to the flag.
-        # This runs if it is a line that starts with the read identifier.
-        if flag:
-            # This splits the line to make a list that is easier to work with.
-            lineList = line.split()
-            # We then take the first item in the list which is the read idenitifier.
-            finalFile.write(lineList[0])
-            # Currently this program is flawed (10/25/2019). I will be working to make this portion
-            # format to a csv file.
-            # CSV formatting
-            finalFile.write(",")
-            # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
-            # whether it was mapped or unmapped.
-            finalFile.write(lineList[2])
-            # Formatting
-            finalFile.write("\n")
         # So! We've finally gotten to the flag.
         # Essentially the flag is there to help identify the actual tool that we are using.
         # Before looking at the reads, the program will to identify what the tool they're currently looking at is.
@@ -47,17 +31,29 @@ for file in f:
         # can have multiple "ID:". Thus it is still a work in progress. (10/25/2019)
         # Yet, if it finds the ID, then we know that the reads are coming next. Thus, we take the reads after that by
         # setting the flag to be true. This will be improved.
-        elif line.find("ID:") != -1:
+        if line.find("ID:") != -1:
             # Splits the line string and places the pieces of that string into a list.
             lineList = line.split()
             # Writes to identity of the tool to the file.
             finalFile.write(lineList[1])
-            # Formatting
-            finalFile.write("\n")
+            finalFile.write(", ")
             # The famous flag
             flag = True
+            # This runs if it is a line that starts with the read identifier.
+        elif flag:
+            # This splits the line to make a list that is easier to work with.
+            lineList = line.split()
+            # Currently this program is flawed (10/25/2019). I will be working to make this portion
+            # format to a csv file.
+            # CSV formatting
+            finalFile.write(", ")
+            # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
+            # whether it was mapped or unmapped.
+            finalFile.write(lineList[2])
         else:
             continue
+            # Formatting
+    finalFile.write("\n")
 #Closes the open files
 f.close()
 finalFile.close()

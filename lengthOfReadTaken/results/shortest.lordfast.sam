@@ -1,13 +1,22 @@
 @HD	VN:1.5	SO:unsorted
-@SQ	SN:Reference	LN:10239
-@PG	ID:pacfast	PN:pacfast	VN:0.0.9	CL:lordfast --search reference.fasta --seq reads.toy.example.fastq 
-R10	4	*	0	0	*	*	0	0	CTGGGCAGCC	~~~~~~~~~~
-R20	4	*	0	0	*	*	0	0	GTGTAGGACGGTAGAAGGGC	~~~~~~~~~~~~~~~~~~~~
-R30	4	*	0	0	*	*	0	0	ATCGTTAGTGGACTCCTTGTCATCTTCCCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R40	4	*	0	0	*	*	0	0	CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R50	4	*	0	0	*	*	0	0	ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R60	4	*	0	0	*	*	0	0	ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R70	4	*	0	0	*	*	0	0	ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R80	4	*	0	0	*	*	0	0	TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R90	4	*	0	0	*	*	0	0	TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-R100	4	*	0	0	*	*	0	0	GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@SQ	SN:Reference	LN:10000
+@PG	ID:lordfast	PN:lordfast	VN:0.0.10	CL:../../../bin/lordfast --search reference.fasta --seq reads.toy.example.fastq 
+R10	4	*	0	0	*	*	0	0	CGTCGCCAAG	~~~~~~~~~~
+R15	4	*	0	0	*	*	0	0	GTGGTCGACCAGACT	~~~~~~~~~~~~~~~
+R20	4	*	0	0	*	*	0	0	GAAAACACGAGGACTGAGTT	~~~~~~~~~~~~~~~~~~~~
+R25	4	*	0	0	*	*	0	0	CTTCCTACTCCGAAAAGTGATCCTT	~~~~~~~~~~~~~~~~~~~~~~~~~
+R30	4	*	0	0	*	*	0	0	CGCTTATTAGTCGCGCTAAGGACCATCTTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R35	4	*	0	0	*	*	0	0	TGGCTCCTTGTATGGATTTCCATCGCTATCTCTAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R40	4	*	0	0	*	*	0	0	TTGATCCCTGAAATCCGTGGTTCATTCACCATATCCCTGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R45	4	*	0	0	*	*	0	0	GAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R50	4	*	0	0	*	*	0	0	CGGGTAAGGGGCTCGTTCAAAAGCCTCTAAAATCGTCGTCTTCGAAATAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R55	4	*	0	0	*	*	0	0	GGGTCGTTCTTCCAGAGGATATGTTGTGTGCGATAGATAGGTTCCGATTAGTCGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R60	4	*	0	0	*	*	0	0	TTAGGACGATTCGCAAGGTATGTAGGGTACTTCGCTGGACATCCATGAGCTCTCACATGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R65	4	*	0	0	*	*	0	0	CGCCGTAGGGCGGCAGATGCAAATTTTGGGTCTTTCGGATCGAAGACTGTCTGGCCCCGATACTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R70	4	*	0	0	*	*	0	0	GCGCGCGTGAATAAAGGGACATAGGTGAATCTGTCCGGAGAAAAGTCAAAATATCCAGCGGGTTGAGAGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R75	4	*	0	0	*	*	0	0	GCCACGATACTGATGTATCGGAATATAAGGAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R80	4	*	0	0	*	*	0	0	CTGAGGTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R85	4	*	0	0	*	*	0	0	GTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTTGTAGAGTCAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R90	4	*	0	0	*	*	0	0	CGCGCGCATCTCCAGGACCCAGATGATTTGGAGTGGGGGGGCTCCAAAGTAAGGACATCTCCTACGCCCAGATTGGGACCCGCCCAGCCC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R95	4	*	0	0	*	*	0	0	GAAAAGGCATGACTCTCGTTGAGGCGGGCGTGAGGCCGTTCCCCTTAAGGATAGCAGGACTGGAGCGTGGGGGTAGGGCAAAGTGCTCCAGAGCA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+R100	4	*	0	0	*	*	0	0	TCCGTGCCCGCCTAGCGACTATAACGGGCATCAAACCGTCTCGCAAGAACCACTCAAAATTACGCCAAGGGCGTCCGGAGACGGCCAATGGTTAATGACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

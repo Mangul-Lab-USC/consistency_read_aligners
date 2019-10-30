@@ -1,5 +1,5 @@
 @SQ	SN:Reference	LN:10000
-@PG	ID:bwa	PN:bwa	VN:0.7.17-r1188	CL:bwa mem reference.fasta reads.toy.example.fastq
+@PG	ID:bwa	PN:bwa	VN:0.7.17-r1188	CL:../../../bin/bwa mem reference.fasta reads.toy.example.fastq
 R10	4	*	0	0	*	*	0	0	CGTCGCCAAG	~~~~~~~~~~	AS:i:0	XS:i:0
 R15	4	*	0	0	*	*	0	0	GTGGTCGACCAGACT	~~~~~~~~~~~~~~~	AS:i:0	XS:i:0
 R20	4	*	0	0	*	*	0	0	GAAAACACGAGGACTGAGTT	~~~~~~~~~~~~~~~~~~~~	AS:i:0	XS:i:0

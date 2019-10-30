@@ -1,0 +1,22 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:10000
+@PG	ID:bowtie2	PN:bowtie2	VN:2.2.5	CL:"/u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/../../../bin/bowtie2-align-s --wrapper basic-0 -x reference.fasta -U reads.toy.example.fastq"
+R10	0	Reference	6524	42	10M	*	0	0	CGTCGCCAAG	~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:10	YT:Z:UU
+R15	0	Reference	3237	42	15M	*	0	0	GTGGTCGACCAGACT	~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:15	YT:Z:UU
+R20	0	Reference	3813	42	20M	*	0	0	GAAAACACGAGGACTGAGTT	~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:20	YT:Z:UU
+R25	0	Reference	8166	42	25M	*	0	0	CTTCCTACTCCGAAAAGTGATCCTT	~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:25	YT:Z:UU
+R30	0	Reference	2361	42	30M	*	0	0	CGCTTATTAGTCGCGCTAAGGACCATCTTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:30	YT:Z:UU
+R35	0	Reference	5212	42	35M	*	0	0	TGGCTCCTTGTATGGATTTCCATCGCTATCTCTAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:35	YT:Z:UU
+R40	0	Reference	1160	42	40M	*	0	0	TTGATCCCTGAAATCCGTGGTTCATTCACCATATCCCTGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:40	YT:Z:UU
+R45	0	Reference	909	42	45M	*	0	0	GAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:45	YT:Z:UU
+R50	0	Reference	2919	42	50M	*	0	0	CGGGTAAGGGGCTCGTTCAAAAGCCTCTAAAATCGTCGTCTTCGAAATAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:50	YT:Z:UU
+R55	0	Reference	258	42	55M	*	0	0	GGGTCGTTCTTCCAGAGGATATGTTGTGTGCGATAGATAGGTTCCGATTAGTCGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:55	YT:Z:UU
+R60	0	Reference	5406	42	60M	*	0	0	TTAGGACGATTCGCAAGGTATGTAGGGTACTTCGCTGGACATCCATGAGCTCTCACATGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:60	YT:Z:UU
+R65	0	Reference	7365	42	65M	*	0	0	CGCCGTAGGGCGGCAGATGCAAATTTTGGGTCTTTCGGATCGAAGACTGTCTGGCCCCGATACTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:65	YT:Z:UU
+R70	0	Reference	6088	42	70M	*	0	0	GCGCGCGTGAATAAAGGGACATAGGTGAATCTGTCCGGAGAAAAGTCAAAATATCCAGCGGGTTGAGAGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:70	YT:Z:UU
+R75	0	Reference	880	42	75M	*	0	0	GCCACGATACTGATGTATCGGAATATAAGGAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:75	YT:Z:UU
+R80	0	Reference	2579	42	80M	*	0	0	CTGAGGTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:80	YT:Z:UU
+R85	0	Reference	2584	42	85M	*	0	0	GTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTTGTAGAGTCAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:85	YT:Z:UU
+R90	0	Reference	7530	42	90M	*	0	0	CGCGCGCATCTCCAGGACCCAGATGATTTGGAGTGGGGGGGCTCCAAAGTAAGGACATCTCCTACGCCCAGATTGGGACCCGCCCAGCCC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:90	YT:Z:UU
+R95	0	Reference	6165	42	95M	*	0	0	GAAAAGGCATGACTCTCGTTGAGGCGGGCGTGAGGCCGTTCCCCTTAAGGATAGCAGGACTGGAGCGTGGGGGTAGGGCAAAGTGCTCCAGAGCA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:95	YT:Z:UU
+R100	0	Reference	1239	42	100M	*	0	0	TCCGTGCCCGCCTAGCGACTATAACGGGCATCAAACCGTCTCGCAAGAACCACTCAAAATTACGCCAAGGGCGTCCGGAGACGGCCAATGGTTAATGACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:100	YT:Z:UU

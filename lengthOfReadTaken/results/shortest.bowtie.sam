@@ -1,13 +1,22 @@
 @HD	VN:1.0	SO:unsorted
-@SQ	SN:Reference	LN:10239
-@PG	ID:Bowtie	VN:0.12.7	CL:"bowtie -S reference reads.toy.example.fastq"
-R10	0	Reference	1855	255	10M	*	0	0	CTGGGCAGCC	~~~~~~~~~~	XA:i:0	MD:Z:10	NM:i:0
-R20	0	Reference	6071	255	20M	*	0	0	GTGTAGGACGGTAGAAGGGC	~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:20	NM:i:0
-R30	0	Reference	6843	255	30M	*	0	0	ATCGTTAGTGGACTCCTTGTCATCTTCCCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:30	NM:i:0
-R40	0	Reference	7995	255	40M	*	0	0	CCTTCGAGCGAGGCGGCGAGGAACACAAAGAAAGAACGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:40	NM:i:0
-R50	0	Reference	8613	255	50M	*	0	0	ATTTTTAGAACCGTTTAGTGGCAGCAGGGTAAAACTGCCGTACTTAGACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:50	NM:i:0
-R60	0	Reference	4045	255	60M	*	0	0	ATTCTTACCAATTACTTAGCAGTGGTACTCGGCTTGCCCATATGGAAGGGGTAACACATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:60	NM:i:0
-R70	0	Reference	6642	255	70M	*	0	0	ATGCCATACCTCTGGGCATCTCATCGTCGAAAAATTAAGCCGTCTGACCAAATTTGATAGGTGCTAATTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:70	NM:i:0
-R80	0	Reference	3788	255	80M	*	0	0	TCCATGACCCTCAACCGTGACCTTGCCTTCGTGTTCAATTTTCCAATATGTCGACACAGAAAAACATGGTTGCGCCAACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:80	NM:i:0
-R90	0	Reference	4683	255	90M	*	0	0	TTCGCTTTCTTCCTGGTCGATCAATGAAAGAGTCGAGAACCGATTACATAGGGGATATACGGATTAAAGATAAGGACGGATTCTGGATTG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:90	NM:i:0
-R100	0	Reference	9159	255	100M	*	0	0	GGACAAGCCTCAAATCCTTCGTCAACCCTCGCTGATCGCGACGGGACGAGAGATACTAGGCATATGGCACCGAGGACCTGATTTACTTAGGTCTCGCATG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0
+@SQ	SN:Reference	LN:10000
+@PG	ID:Bowtie	VN:0.12.7	CL:"../../../bin/bowtie -S reference reads.toy.example.fastq"
+R10	0	Reference	6524	255	10M	*	0	0	CGTCGCCAAG	~~~~~~~~~~	XA:i:0	MD:Z:10	NM:i:0
+R15	0	Reference	3237	255	15M	*	0	0	GTGGTCGACCAGACT	~~~~~~~~~~~~~~~	XA:i:0	MD:Z:15	NM:i:0
+R20	0	Reference	3813	255	20M	*	0	0	GAAAACACGAGGACTGAGTT	~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:20	NM:i:0
+R25	0	Reference	8166	255	25M	*	0	0	CTTCCTACTCCGAAAAGTGATCCTT	~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:25	NM:i:0
+R30	0	Reference	2361	255	30M	*	0	0	CGCTTATTAGTCGCGCTAAGGACCATCTTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:30	NM:i:0
+R35	0	Reference	5212	255	35M	*	0	0	TGGCTCCTTGTATGGATTTCCATCGCTATCTCTAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:35	NM:i:0
+R40	0	Reference	1160	255	40M	*	0	0	TTGATCCCTGAAATCCGTGGTTCATTCACCATATCCCTGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:40	NM:i:0
+R45	0	Reference	909	255	45M	*	0	0	GAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:45	NM:i:0
+R50	0	Reference	2919	255	50M	*	0	0	CGGGTAAGGGGCTCGTTCAAAAGCCTCTAAAATCGTCGTCTTCGAAATAC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:50	NM:i:0
+R55	0	Reference	258	255	55M	*	0	0	GGGTCGTTCTTCCAGAGGATATGTTGTGTGCGATAGATAGGTTCCGATTAGTCGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:55	NM:i:0
+R60	0	Reference	5406	255	60M	*	0	0	TTAGGACGATTCGCAAGGTATGTAGGGTACTTCGCTGGACATCCATGAGCTCTCACATGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:60	NM:i:0
+R65	0	Reference	7365	255	65M	*	0	0	CGCCGTAGGGCGGCAGATGCAAATTTTGGGTCTTTCGGATCGAAGACTGTCTGGCCCCGATACTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:65	NM:i:0
+R70	0	Reference	6088	255	70M	*	0	0	GCGCGCGTGAATAAAGGGACATAGGTGAATCTGTCCGGAGAAAAGTCAAAATATCCAGCGGGTTGAGAGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:70	NM:i:0
+R75	0	Reference	880	255	75M	*	0	0	GCCACGATACTGATGTATCGGAATATAAGGAAGCTTGGGGTTCTCAGAAATAAAGGTTTGTTCCTCCTTCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:75	NM:i:0
+R80	0	Reference	2579	255	80M	*	0	0	CTGAGGTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:80	NM:i:0
+R85	0	Reference	2584	255	85M	*	0	0	GTGGCCCCATATGCGCGGATCGGTTAGAAATTATATCTAATTACACACGATGTATCCGTTTCTTCATTGTACCTTGTAGAGTCAG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:85	NM:i:0
+R90	0	Reference	7530	255	90M	*	0	0	CGCGCGCATCTCCAGGACCCAGATGATTTGGAGTGGGGGGGCTCCAAAGTAAGGACATCTCCTACGCCCAGATTGGGACCCGCCCAGCCC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:90	NM:i:0
+R95	0	Reference	6165	255	95M	*	0	0	GAAAAGGCATGACTCTCGTTGAGGCGGGCGTGAGGCCGTTCCCCTTAAGGATAGCAGGACTGGAGCGTGGGGGTAGGGCAAAGTGCTCCAGAGCA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:95	NM:i:0
+R100	0	Reference	1239	255	100M	*	0	0	TCCGTGCCCGCCTAGCGACTATAACGGGCATCAAACCGTCTCGCAAGAACCACTCAAAATTACGCCAAGGGCGTCCGGAGACGGCCAATGGTTAATGACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0
