@@ -1,3 +1,20 @@
 
+ID:bowtie2, , Reference, Reference, Reference, Reference, Reference, *, *, *, *, *
+ID:Bowtie, , Reference, Reference, Reference, Reference, Reference, *, *, *, *, *
+ID:bwa, , Reference, Reference, Reference, Reference, Reference, *, *, *, *, *
+ID:graphmap, , *, *, *, *, *, *, *, *, *, Reference, Reference, Reference
+ID:lordfast, , *, *, *, *, *, *, *, *, *, *
+ID:minimap2, , Reference, Reference, Reference, Reference, Reference, *, *, *, *, *
 
-ID:bwa, short1, Reference, short2, Reference, short3, Reference, long1, Reference, long2, Reference, long3, Reference, unmappedlong2, *, unmappedlong3, *, 
+
+
+
+ID:ngmlr, , Reference, Reference, Reference, *, *, *, Reference, Reference, Reference, *, *, *
+ID:ngm, , *, *, *, *, *, Reference, Reference, Reference, Reference, Reference, Reference, *
+ID:razers3, , LN:10000, Reference, Reference, Reference, Reference, Reference, Reference, Reference, Reference, Reference, Reference, Reference
+ID:smalt, , Reference, Reference, Reference, Reference, Reference, *, *, *, *, *
+ID:FASTQ, ID:SNAP, , LN:10000, Reference, Reference, Reference, Reference, Reference, *, *, *, *, *
+
+
+
+

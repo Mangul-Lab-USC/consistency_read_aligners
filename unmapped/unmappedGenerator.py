@@ -24,7 +24,7 @@ for i in range(5):
     mappedLongReads.append(reference[seqStartLong: seqEndLong])
 for i in range(5):
     unmappedShortRead = ""
-    for j in range(1000):
+    for j in range(75):
         unmappedShortRead += bases[randrange(4)]
     unmappedShortReads.append(unmappedShortRead)
 for i in range(5):
@@ -117,8 +117,8 @@ for i in range(5):
     fastaShortFile.write(unmappedShortReads[i])
     fastaShortFile.write("\n")
 fastaShortFile.close()
-fastqShortFile = open("reads.toy.example.short.fasta", "w").close()
-fastqShortFile = open("reads.toy.example.short.fasta", "w+")
+fastqShortFile = open("reads.toy.example.short.fastq", "w").close()
+fastqShortFile = open("reads.toy.example.short.fastq", "w+")
 for i in range(5):
     fastqShortFile.write("@short")
     fastqShortFile.write(str(i + 1))
@@ -155,8 +155,8 @@ for i in range(5):
     fastaLongFile.write(unmappedLongReads[i])
     fastaLongFile.write("\n")
 fastaLongFile.close()
-fastqLongFile = open("reads.toy.example.long.fasta", "w").close()
-fastqLongFile = open("reads.toy.example.long.fasta", "w+")
+fastqLongFile = open("reads.toy.example.long.fastq", "w").close()
+fastqLongFile = open("reads.toy.example.long.fastq", "w+")
 for i in range(5):
     fastqLongFile.write("@long")
     fastqLongFile.write(str(i + 1))
