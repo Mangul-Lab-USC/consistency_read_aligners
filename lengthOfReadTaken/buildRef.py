@@ -17,11 +17,9 @@ count = 0
 for i in range(1000000):
     # This writes the base pairs to the file. The randrange(4) produces a random number between 0 and 4.
     # We then take the base pair at that location in the bases list.
-    if count == 60:
-        count = 0
-        referencesubread.write("\n")
+    if count < 998:
+        referencesubread.write(bases[randrange(4)])
     referenceFile.write(bases[randrange(4)])
-    referencesubread.write(bases[randrange(4)])
     count+=1
 # This closes the reference file.
 referenceFile.close()

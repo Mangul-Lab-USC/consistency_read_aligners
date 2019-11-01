@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/nresults/last.maf" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/last.maf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nresults/segemehl.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/segemehl.sam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nresults/smalt.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/smalt.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/subread.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/subread.sam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reference.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/reference.fasta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortReadGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortReadGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fasta" afterDir="false" />
