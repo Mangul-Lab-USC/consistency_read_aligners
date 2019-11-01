@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="" />
+    <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwa.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bwa.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndexHash" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndexHash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bowtie.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bowtie2.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie2.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bwa.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bwa.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/graphmap.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/graphmap.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/last.maf" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/last.maf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/segemehl.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/segemehl.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/smalt.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/smalt.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/reference.fasta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortReadGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortReadGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortest.read.length.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fasta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortest.read.length.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fastq" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +30,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ScJ9CRdj96xJWTqnodRb5Y3ACV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
   </component>
   <component name="RunDashboard">
@@ -43,5 +63,16 @@
       <updated>1571856796057</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

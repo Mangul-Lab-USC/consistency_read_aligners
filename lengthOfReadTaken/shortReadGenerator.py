@@ -75,3 +75,28 @@ for i in range(len(reads)):
     fastqShortReads.write("\n")
 # Closes the file since we're finished.
 fastqShortReads.close()
+fastqSoapSplice = open("soapsplice.fastq", "w").close()
+fastqSoapSplice = open("soapsplice.fastq", "w+").close()
+for i in range(len(reads)):
+    if reads[i] > 10:
+        # This is how identifiers start in fastq format
+        fastqSoapSplice.write("@R")
+        # This adds on to the identifier. We're using the format "@R(length of read)" to identify the reads.
+        fastqSoapSplice.write(str(len(reads[i])))
+        # Formatting fastq
+        fastqSoapSplice.write("\n")
+        # We write the read to the file
+        fastqSoapSplice.write(reads[i])
+        # Formatting fastq
+        fastqSoapSplice.write("\n+\n")
+        # This is usually a quality score. We will just place tildas since we have created this data.
+        for z in range(len(reads[i])):
+            fastqSoapSplice.write("~")
+        # Formatting fastq
+        fastqSoapSplice.write("\n")
+    else:
+        continue
+fastqSoapSplice.close()
+
+
+
