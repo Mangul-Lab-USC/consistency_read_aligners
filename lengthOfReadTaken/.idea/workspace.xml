@@ -2,40 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bowtie.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bowtie2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nresults/soapsplice.junc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nresults/soapsplice.junc.temp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nresults/soapsplice.sam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nresults/splazers.result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nresults/subread.sam.indel.vcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/referencesub.fasta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmap.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/segemehl.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smalt.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snap.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soapsplice.fastq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soapsplice.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splazers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subread.fastq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subread.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Final.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildRef.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildRef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bwa.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bwa.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndexHash" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndexHash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/bowtie.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/bowtie2.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie2.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/bwa.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bwa.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/graphmap.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/graphmap.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/last.maf" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/last.maf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/segemehl.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/segemehl.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/smalt.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/smalt.sam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nresults/subread.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/subread.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reference.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/referencesub.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/referencesub.fasta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortReadGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortReadGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fasta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fastq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soapsplice.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/soapsplice.fastq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subread.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/subread.fastq" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +65,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
