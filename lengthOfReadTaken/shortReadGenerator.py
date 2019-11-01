@@ -98,6 +98,13 @@ for i in range(len(reads)):
         continue
 fastqSoapSplice.close()
 readsub = []
+referencesubFile = open("referencesub.fasta", "r")
+# Just checking that we're in read mode.
+if referencesubFile.mode == "r":
+    # We then read the information contained into a variable named reference.
+    referencesub = referencesubFile.read()
+# Since we have the information we need, we can close the file.
+referencesubFile.close()
 for i in range(readRangeStart, (readRangeEnd + readStep), readStep):
     # This creates a starting point for the read. The 11 comes from the fact that we want to skip the identifier ">Reference".
     # The 11 to 8500 range is a good place to start the read for references longer than 100000. Yet, the number should be changed based
@@ -106,7 +113,7 @@ for i in range(readRangeStart, (readRangeEnd + readStep), readStep):
     # The read length is going to be as long as i so we add the read length to get a end position.
     seqEnd = seqStart + i;
     # We take a substring of the reference genome to create the read using the range created in the above two lines.
-    readsub.append(reference[seqStart: seqEnd])
+    readsub.append(referencesub[seqStart: seqEnd])
 fastqSub = open("subread.fastq", "w").close()
 fastqSub = open("subread.fastq", "w+")
 for i in range(len(reads)):
