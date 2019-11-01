@@ -116,8 +116,8 @@ for i in range(readRangeStart, (readRangeEnd + readStep), readStep):
     readsub.append(referencesub[seqStart: seqEnd])
 fastqSub = open("subread.fastq", "w").close()
 fastqSub = open("subread.fastq", "w+")
-for i in range(len(reads)):
-    if len(readsub[i]) > 10:
+for i in range(len(readsub)):
+    if len(readsub[i]) < 800:
         # This is how identifiers start in fastq format
         fastqSub.write("@R")
         # This adds on to the identifier. We're using the format "@R(length of read)" to identify the reads.
