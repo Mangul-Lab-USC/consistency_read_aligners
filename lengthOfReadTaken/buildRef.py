@@ -7,6 +7,8 @@ bases = ["A", "C", "T", "G"]
 referenceFile = open("reference.fasta", "w").close()
 # This line creates a "reference.fasta" file is it doesn't already exist. It then opens the file for writing.
 referenceFile = open("reference.fasta", "w+")
+referencesubread = open("referencesub.fasta", "w").close()
+referencesubread = open("referencesub.fasta", "w+")
 # Here we write the first line of the "reference.fasta" file which is the identifier which starts with ">"
 referenceFile.write(">Reference\n")
 # Then using a for loop, we write the base pairs to the file. The range controls the number of base pairs we want.
@@ -16,3 +18,4 @@ for i in range(1000000):
     referenceFile.write(bases[randrange(4)])
 # This closes the reference file.
 referenceFile.close()
+referencesubread.close()

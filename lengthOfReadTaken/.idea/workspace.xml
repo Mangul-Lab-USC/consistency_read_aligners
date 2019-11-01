@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildRef.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildRef.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bwa.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bwa.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndexHash" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndexHash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nresults/bowtie.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie.sam" afterDir="false" />
