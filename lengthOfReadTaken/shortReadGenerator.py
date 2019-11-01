@@ -76,9 +76,9 @@ for i in range(len(reads)):
 # Closes the file since we're finished.
 fastqShortReads.close()
 fastqSoapSplice = open("soapsplice.fastq", "w").close()
-fastqSoapSplice = open("soapsplice.fastq", "w+").close()
+fastqSoapSplice = open("soapsplice.fastq", "w+")
 for i in range(len(reads)):
-    if reads[i] > 10:
+    if len(reads[i]) > 10:
         # This is how identifiers start in fastq format
         fastqSoapSplice.write("@R")
         # This adds on to the identifier. We're using the format "@R(length of read)" to identify the reads.
