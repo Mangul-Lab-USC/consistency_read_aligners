@@ -1,8 +1,7 @@
-#/bin/bash
+#!/bin/bash
 cp shortest.read.length.fastq reads.toy.example.fastq
 cp shortest.read.length.fasta reads.toy.example.fasta 
-../../../bin/subread-buildindex -o ref_1 ref_1.fasta
-../../../bin/subread-align -t 1 -i ref_1 -r reads.toy.example.fastq -o nresults/subread.sam --SAMoutput
+../../../bin/minimap2 -a reference.fasta reads.toy.example.fastq  > nresults/minimap2.sam
 cp reference.fasta copy.fa
 rm ref*
 mv copy.fa reference.fasta
