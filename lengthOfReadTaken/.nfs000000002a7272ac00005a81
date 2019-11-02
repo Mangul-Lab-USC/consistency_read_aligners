@@ -1,9 +1,0 @@
-#!/bin/bash
-cp shortest.read.length.fastq reads.toy.example.fastq
-cp shortest.read.length.fasta reads.toy.example.fasta 
-../../../bin/gmap -d reference.fasta -D reads.toy.example.fasta > nresults/gmapper.sam
-cp reference.fasta copy.fa
-rm ref*
-mv copy.fa reference.fasta
-rm reads.toy.example.fastq
-rm reads.toy.example.fasta
