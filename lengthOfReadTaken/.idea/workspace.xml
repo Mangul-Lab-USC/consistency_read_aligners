@@ -5,13 +5,37 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Final.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildRef.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildRef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/subread.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/subread.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/referencesub.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/referencesub.fasta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bowtie.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bowtie2.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bwa.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/graphmap.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/last.maf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/lordfast.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/minialign.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/minimap2.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/mummer.delta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/nanoblaster.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/ngm.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/ngmlr.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/rmap.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/segemehl.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/shrimp.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/smalt.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/snap.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/soapsplice.junc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/soapsplice.junc.temp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/soapsplice.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/splazers.result" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/subread.sam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/subread.sam.indel.vcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/referencesub.fasta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shortReadGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortReadGenerator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fasta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fastq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soapsplice.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/soapsplice.fastq" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/subread.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/subread.fastq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subread.sh" beforeDir="false" afterPath="$PROJECT_DIR$/subread.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
