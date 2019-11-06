@@ -1,0 +1,17 @@
+#!/bin/bash
+./bowtie2.sh
+./bowtie.sh
+./bwa.sh
+./graphmap.sh
+./minialign.sh
+./minimap2.sh
+./ngmlr.sh
+./ngm.sh
+./rmap.sh
+./smalt.sh
+./snap.sh
+./soapsplice.sh
+./splazers.sh
+./subread.sh
+./segemehl.sh
+./lordfast.sh
