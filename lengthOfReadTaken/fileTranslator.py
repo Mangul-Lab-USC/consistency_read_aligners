@@ -5,6 +5,17 @@ list_of_files = "/u/home/s/shahar/anaconda3/research/consistency_read_aligners/l
 f = open(list_of_files, "r")
 # This opens the file that we're going to write the data to.
 finalFile = open("Final.txt", "w+")
+readStart = input("Where does the range start?")
+readEnd = input("Where does the range end?")
+readStep = input("What are the intervals?")
+readStart = int(readStart)
+readEnd = int(readEnd)
+readStep = int(readStep)
+finalFile.write("Tool Name")
+for i in range(readStart,readEnd,readStep):
+    finalFile.write(", ")
+    finalFile.write(i)
+finalFile.write("\n")
 # This for loop runs for each file in the list of files.
 for file in f:
     # This line takes off the new line at the end of the string.
