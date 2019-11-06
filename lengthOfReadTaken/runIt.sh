@@ -9,9 +9,7 @@
 ./ngm.sh
 ./rmap.sh
 ./smalt.sh
-./snap.sh
 ./soapsplice.sh
 ./splazers.sh
 ./subread.sh
 ./segemehl.sh
-./lordfast.sh

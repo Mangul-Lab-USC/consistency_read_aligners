@@ -11,18 +11,15 @@ if referenceFile.mode == "r":
 referenceFile.close()
 # These questions and inputs allows us to control the size and range of the reads.
 # This takes in the beginning of the range. The length of the read we start with.
-#readRangeStart = input("What is the beginning of the range?\n")
+readRangeStart = input("What is the beginning of the range?\n")
 # This takes in the end of the range. The maximum size we want the read to be.
-#readRangeEnd = input("What is the end of the range?\n")
+readRangeEnd = input("What is the end of the range?\n")
 # This takes in the intervals or difference in size between each read.
-#readStep = input("What is the interval?\n")
+readStep = input("What is the interval?\n")
 # These change the input strings into integers
-#readRangeStart = int(readRangeStart)
-#readRangeEnd = int(readRangeEnd)
-#readStep = int(readStep)
-readRangeStart = 10
-readRangeEnd = 350
-readStep = 10
+readRangeStart = int(readRangeStart)
+readRangeEnd = int(readRangeEnd)
+readStep = int(readStep)
 # This list stores the reads as we produce them in the next step
 reads = []
 # This for loop creates the reads. For i, a number starting at the readRangeStart mentioned,
