@@ -36,7 +36,6 @@ for file in f:
             lineList = line.split()
             # Writes to identity of the tool to the file.
             finalFile.write(lineList[1])
-            finalFile.write(", ")
             # The famous flag
             flag = True
             # This runs if it is a line that starts with the read identifier.
