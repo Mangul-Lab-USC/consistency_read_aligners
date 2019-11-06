@@ -1,20 +1,13 @@
 # Please change this according to the directory you are currently using.
 # Please revise the "files_to_parse.txt" accordingly.
-list_of_files = "/u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/files.txt"
+list_of_files = "/Users/dywk/PycharmProjects/consistency_read_aligners/lengthOfReadTaken/nresults/files.txt"
 # This opens the "files_to_parse.txt", this is the list of files that we want to parse.
 f = open(list_of_files, "r")
 # This opens the file that we're going to write the data to.
-finalFile = open("Final.txt", "w+")
-readStart = input("Where does the range start?\n")
-readEnd = input("Where does the range end?\n")
-readStep = input("What are the intervals?\n")
-readStart = int(readStart)
-readEnd = int(readEnd)
-readStep = int(readStep)
-finalFile.write("Tool Name")
-for i in range(readStart,(readEnd+readStep),readStep):
-    finalFile.write(", ")
-    finalFile.write("%d" % i)
+finalFile = open("Final.csv", "w+")
+finalFile.write("Tool_Name,")
+finalFile.write("Lowest,")
+finalFile.write("Highest")
 finalFile.write("\n")
 # This for loop runs for each file in the list of files.
 for file in f:
@@ -34,6 +27,8 @@ for file in f:
     flag = False
     # For each line in the file we're going to sift through the line to get the information that we want.
     # What we want is to know whether the reads have been mapped or not mapped. A "*" means unmapped and "REFERENCE" means mapped.
+    flager = False
+    hold = ""
     for line in lines:
         # So! We've finally gotten to the flag.
         # Essentially the flag is there to help identify the actual tool that we are using.
@@ -46,23 +41,28 @@ for file in f:
             # Splits the line string and places the pieces of that string into a list.
             lineList = line.split()
             # Writes to identity of the tool to the file.
-            finalFile.write(lineList[1])
+            finalFile.write(lineList[1][3:])
             # The famous flag
             flag = True
             # This runs if it is a line that starts with the read identifier.
         elif flag:
             # This splits the line to make a list that is easier to work with.
             lineList = line.split()
-            # Currently this program is flawed (10/25/2019). I will be working to make this portion
-            # format to a csv file.
-            # CSV formatting
-            finalFile.write(", ")
             # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
             # whether it was mapped or unmapped.
-            if lineList[2] == "Reference":
-                finalFile.write("1")
-            else:
-                finalFile.write("0")
+            if not flager:
+                if lineList[2] == "Reference":
+                    finalFile.write(",")
+                    finalFile.write(lineList[0][1:])
+                    flager = True
+
+            elif flager:
+                if lineList[2] == "Reference":
+                    hold = lineList[0][1:]
+                else:
+                    finalFile.write(",")
+                    finalFile.write(hold)
+
         else:
             continue
             # Formatting
