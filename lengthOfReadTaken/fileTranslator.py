@@ -12,7 +12,7 @@ readStart = int(readStart)
 readEnd = int(readEnd)
 readStep = int(readStep)
 finalFile.write("Tool Name")
-for i in range(readStart,readEnd,readStep):
+for i in range(readStart,(readEnd+readStep),readStep):
     finalFile.write(", ")
     finalFile.write("%d" % i)
 finalFile.write("\n")
