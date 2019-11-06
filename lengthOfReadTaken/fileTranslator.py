@@ -49,8 +49,8 @@ for file in f:
             finalFile.write(", ")
             # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
             # whether it was mapped or unmapped.
-            if lineList[1] == "REFERENCE":
-                finalFile.write("1")
+            if lineList[2] == "Reference":
+		finalFile.write("1")
             else:
                 finalFile.write("0")
         else:
