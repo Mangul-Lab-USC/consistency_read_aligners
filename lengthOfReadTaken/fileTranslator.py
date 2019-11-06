@@ -50,7 +50,7 @@ for file in f:
             # We then take the third item in the list which is either a "*" or a "REFERENCE" depending on
             # whether it was mapped or unmapped.
             if lineList[2] == "Reference":
-		finalFile.write("1")
+                finalFile.write("1")
             else:
                 finalFile.write("0")
         else:
