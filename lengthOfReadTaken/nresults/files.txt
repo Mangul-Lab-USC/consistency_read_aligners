@@ -2,13 +2,11 @@
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/bowtie.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/bwa.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/graphmap.sam
-/u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/lordfast.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/minialign.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/minimap2.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/ngmlr.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/ngm.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/segemehl.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/smalt.sam
-/u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/snap.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/soapsplice.sam
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/nresults/subread.sam
