@@ -1,4 +1,0 @@
-qName tName qStrand tStrand score percentSimilarity tStart tEnd tLength qStart qEnd qLength nCells
-Reference/0_10000 long1 0 0 -5000 100 0 1000 1000 1006 2006 10000 20966
-Reference/0_10000 long2 0 0 -5000 100 0 1000 1000 2668 3668 10000 20966
-Reference/0_10000 long3 0 0 -5000 100 0 1000 1000 1549 2549 10000 20966
