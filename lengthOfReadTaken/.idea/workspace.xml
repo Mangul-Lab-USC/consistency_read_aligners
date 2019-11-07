@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.nfs000000002af4b3610000309d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nfs000000002b7b61ad0000309e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nfs000000002db03b280000309f" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graphmap.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lastdb.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lordfast.sh" afterDir="false" />
