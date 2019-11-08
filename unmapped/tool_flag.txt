@@ -1,3 +1,13 @@
-bowtie,NM,MD,XS
-bowtie2,NM,XS
-BWA,NM,XD,XS,XC
+bowtie,XA,MD,NM
+bowtie2,AS,XN,XM,XO,XG,NM,MD,YT
+Graphmap,NM,AS,HO,ZE,ZF,ZQ,ZR,MD
+BWA,NM,MD,AS,XS
+Minimap2,NM,ms,AS,nn,tp,cm,s1,s2,de,rl
+NGMLR,AS,NM,XI,XS,XE,XR,MD,SV,QS,QE,CV
+NGM,AS,NM,NH,XI,XO,XE,XR,MD
+Razers3,NM,MD
+Smalt,NM,AS
+Snap,PG,NM,RG,PL,PU,LB,SM
+
+
+
