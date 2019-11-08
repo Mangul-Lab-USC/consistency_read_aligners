@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graphmap.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lastdb.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lordfast.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minialign.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minimap2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nanoblaster.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngm.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ngmlr.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nucmer.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference.fasta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runIt.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Final.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildRef.py" beforeDir="false" afterPath="$PROJECT_DIR$/buildRef.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fileTranslator.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileTranslator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-dir/Genome" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/Genome" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndex" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndexHash" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndexHash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/bowtie.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/bowtie2.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie2.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/bwa.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bwa.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/files.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/files.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/graphmap.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/graphmap.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/last.maf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/lordfast.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/lordfast.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/minialign.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/minialign.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/minimap2.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/minimap2.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/mummer.delta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/nanoblaster.sam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/ngm.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/ngm.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/ngmlr.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/ngmlr.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/rmap.sam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/segemehl.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/segemehl.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/shrimp.sam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/smalt.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/smalt.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/snap.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/snap.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/soapsplice.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/soapsplice.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/splazers.result" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/splazers.result" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/subread.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/subread.sam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nresults/subread.sam.indel.vcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/referencesub.fasta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runEverything.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortReadGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortReadGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortest.read.length.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fasta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortest.read.length.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fastq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soapsplice.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/soapsplice.fastq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subread.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/subread.fastq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subread.sh" beforeDir="false" afterPath="$PROJECT_DIR$/subread.sh" afterDir="false" />
-    </list>
+    <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
