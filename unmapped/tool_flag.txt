@@ -1,0 +1,3 @@
+bowtie,NM,MD,XS
+bowtie2,NM,XS
+BWA,NM,XD,XS,XC
