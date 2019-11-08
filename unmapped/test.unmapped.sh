@@ -21,7 +21,7 @@
 /u/home/s/shahar/anaconda3/bin/2bwt-builder reference.fasta
 /u/home/s/shahar/anaconda3/bin/soapsplice -d reference.fasta.index -1 reads.toy.example.short.fasta -o nresults/unmapped.soapsplice.sam -f2
 
-/u/home/s/shahar/anaconda3/bin/snap-aligner index reference.fasta index-dir
+/u/home/s/shahar/anaconda3/bin/snap-aligner index ref_1.fasta index-dir
 /u/home/s/shahar/anaconda3/bin/snap-aligner single index-dir reads.toy.example.short.fastq -o nresults/unmapped.snap.sam
 
 /u/home/s/shahar/anaconda3/bin/subread-buildindex -o reference reference.fasta
