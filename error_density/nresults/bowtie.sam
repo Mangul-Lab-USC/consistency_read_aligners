@@ -1,8 +1,8 @@
 @HD	VN:1.0	SO:unsorted
 @SQ	SN:Reference	LN:1000000
 @PG	ID:Bowtie	VN:0.12.7	CL:"../../../bin/bowtie -S reference reads.toy.example.fastq"
-R0	0	Reference	7623	255	100M	*	0	0	TCACAACATGTCCAAAGGTATATCCAGGCGCCTAGGAGCAGGAGAGTGCGTTAGCCACTCTTTGACCGTGCGGGACTTAGTCAAATGCAAAAGCTGGAAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0
-R1	0	Reference	7623	255	100M	*	0	0	TCACAACATGTCCAAAGGTATATCCAGGCGCCTAGGAGCAGGAGAGTGCGTTAGCCACTCTTTGACCGTGCGGGACTTAGTCAAATGCAAAAGCTGGAAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0
-R2	0	Reference	7623	255	100M	*	0	0	TCACAACATGTCCAAAGGTATATCCAGGCGCCTAGGAGCAGGAGAGTGCGTTAGCCACTCTTTGACCGTGCGGGACTTAGTCAAATGCAAAAGCTGGAAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0
-R3	0	Reference	7623	255	100M	*	0	0	TCACAACATGTCCAAAGGTATATCCAGGCGCCTAGGAGCATGAGAGTGCGTTAGCCACTCTTTGACCGTGCGGGACTTAGTCAAATGCAAAAGCTGGAAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:40G59	NM:i:1
-R4	0	Reference	7623	255	100M	*	0	0	TCACAACATGTCCAAAGGTATATCCAGGCGCCTAGGAGCATGAGAGTGCGTTAGCCACTCTTTGACCGTGCGGGACTTAGTCAAATGCAAAAGCTGGAAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:40G59	NM:i:1
+R0	0	Reference	7799	255	100M	*	0	0	GTCTCACCGTACAGCCTAAATATGCCTTTACCCGAGGAACCCAGACCCTAATCCTCGGCTTAGTTGTTGCGGTTGCGTTCCCGAGAGTCGCTCAGCCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0
+R1	0	Reference	7799	255	100M	*	0	0	TTCTCACCGTACAGCCTAAATATGCCTTTACCCGAGGAACCCAGACCCTAATCCTCGGCTTAGTTGTTGCGGTTGCGTTCCCGAGAGTCGCTCAGCCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:1	MD:Z:0G99	NM:i:1
+R2	0	Reference	7799	255	100M	*	0	0	TTCTCACCGTACAGCCTAAATATGCCTTTACCCGAGGAACCCAGACCCTAATCCTCGGCTTAGTTGTTGCGGTTGCGTTCCCGAGAGTCGCTCAGCCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:1	MD:Z:0G99	NM:i:1
+R3	0	Reference	7799	255	100M	*	0	0	TTCTCACCGTACAGCCTAAATATGCCTTTACCCTAGGAACCCAGACCCTAATCCTCGGCTTAGTTGTTGCGGTTGCGTTCCCGAGAGTCGCTCAGCCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:1	MD:Z:0G32G66	NM:i:2
+R4	4	*	0	0	*	*	0	0	TTCTCACCGTACAGCCTAAATATGCATTTACCCGAGGAACCCAGACCCTAATCCTCGGCTTAGTTGTTGCGGTTGAGTTCCCGAGAGTCGCTCAGCCTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XM:i:0
