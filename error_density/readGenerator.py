@@ -23,7 +23,7 @@ seqEnd = seqStart + readLength;
 reads = [reference[seqStart: seqEnd]] * numErrors
 for i in range(numErrors):
     temp = list(reads[i])
-    num = int(readLength/numErrors)
+    num = int(readLength/i)
     count = 0
     for n in range(i):
         if temp[count] == "A":
