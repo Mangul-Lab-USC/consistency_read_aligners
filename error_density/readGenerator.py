@@ -13,7 +13,7 @@ referenceFile.close()
 readLength = input("What is the length of the read that we want to see?\n")
 numErrors = input("What is the maximum number of errors that we want to see?\n")
 readLength = int(readLength)
-numErrors = int(numErrors)
+numErrors = int(numErrors) + 1
 # This list stores the reads as we produce them in the next step
 # This for loop creates the reads. For i, a number starting at the readRangeStart mentioned,
 # and going all the way to readRangeEnd + readstep. This is because we want to include the max number not stop before it.
@@ -28,6 +28,7 @@ for i in range(numErrors):
     num = int(readLength/i+1)
     count = 0 + num
     for n in range(i):
+        print(count)
         if temp[count] == "A":
             temp[count] = "C"
         if temp[count] == "C":
