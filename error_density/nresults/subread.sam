@@ -1,0 +1,10 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:1000000
+@PG	ID:subread	PN:subread	VN:1.6.4	CL:"../../../bin/subread-align" "-t" "1" "-i" "ref_1" "-r" "reads.toy.example.fastq" "-o" "nresults/subread.sam" "--SAMoutput" 
+R0	0	Reference	5100	40	100M	*	0	0	GTTATGACTTCTTTTAATACTGCTTATACTTCACGGTTCTGTTGATTATCATGGGCCATTAAGGCAGGTCGATTGTGCGATGTGCGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:0
+R1	0	Reference	5100	40	100M	*	0	0	GTTATGACTTCTTTTAATACTGCTTATACTTCACGGTTCTGTTGATTATCATGGGCCATTAAGGCAGGTCGATTGTGCGATGTGCGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:0
+R2	0	Reference	5100	13	100M	*	0	0	GTTATGACTTCTTTTAATACTGCTTATACTTCAAGGTTCTGTTGATTATCATGGGCCATTAAGGCATGTCGATTGTGCGATGTGCGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:2
+R3	0	Reference	5100	40	100M	*	0	0	GTTATGACTTCTTTTAATACTGCTTATACTTCACGGTTCTGTTGATTATCATGGGCCATTAAGGCAGGTCGATTGTGCGATGTGCGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:0
+R4	0	Reference	5100	20	100M	*	0	0	GTTATGACTTCTTTTAATACTGCTTATACTTCACGGTTCTTTTGATTATCATGGGCCATTAAGGCAGGTCGATTGTGCGATGTGCGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:1
+R5	0	Reference	5100	20	100M	*	0	0	GTTATGACTTCTTTTAATACTGCTTATACTTCACGGTTCTGTTGATTATCATGGGCCATTAAGGAAGGTCGATTGTGCGATGTGCGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	HI:i:1	NH:i:1	NM:i:1
+R6	4	*	0	0	*	*	0	0	GTTATGACTTCTTTTAATACTGCTTATAATTCACGGTTCTGTTGATTATCATGGGCAATTAAGGCAGGTCTATTGTGCGATGTGAGAGACTCCCCGGGTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
