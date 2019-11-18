@@ -22,6 +22,8 @@ seqStart = randrange(11, 8500)
 seqEnd = seqStart + readLength;
 reads = [reference[seqStart: seqEnd]] * numErrors
 for i in range(numErrors):
+    if i == 0:
+        continue
     temp = list(reads[i])
     num = int(readLength/i)
     count = 0
