@@ -22,24 +22,24 @@ seqStart = randrange(11, 8500)
 seqEnd = seqStart + readLength;
 reads = [reference[seqStart: seqEnd]] * numErrors
 for i in range(numErrors):
-    if i == 0:
-        continue
-    temp = list(reads[i])
-    num = int(readLength/(i+1))
-    count = 0 + num
-    for n in range(i):
-        print(count)
-        print(i)
-        if temp[count] == "A":
-            temp[count] = "C"
-        if temp[count] == "C":
-            temp[count] = "A"
-        if temp[count] == "T":
-            temp[count] = "G"
-        if temp[count] == "G":
-            temp[count] = "T"
-        count += num
-    reads[i] = "".join(temp)
+    if i != 0:
+        temp = list(reads[i])
+        num = int(readLength / (i + 1))
+        count = 0 + num
+        for n in range(i):
+            print(count)
+            print(i)
+            if temp[count] == "A":
+                temp[count] = "C"
+            if temp[count] == "C":
+                temp[count] = "A"
+            if temp[count] == "T":
+                temp[count] = "G"
+            if temp[count] == "G":
+                temp[count] = "T"
+            count += num
+        reads[i] = "".join(temp)
+
 print(reads)
 # This next line is to check whether a file "shortest.read.length.fasta" exists. If it does, we clear it.
 fastaShortReadsClear = open("shortest.read.length.fasta", "w").close()
