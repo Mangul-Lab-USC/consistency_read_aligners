@@ -10,8 +10,8 @@ if referenceFile.mode == "r":
 # Since we have the information we need, we can close the file.
 referenceFile.close()
 # These questions and inputs allows us to control the size and range of the reads.
-readLength = input("What is the length of the read that we want to see?")
-numErrors = input("What is the maximum number of errors that we want to see?")
+readLength = input("What is the length of the read that we want to see?\n")
+numErrors = input("What is the maximum number of errors that we want to see?\n")
 readLength = int(readLength)
 numErrors = int(numErrors)
 # This list stores the reads as we produce them in the next step
@@ -20,6 +20,7 @@ numErrors = int(numErrors)
 # The reads are created and incremented in length by the readstep every step of the for loop.
 seqStart = randrange(11, 8500)
 seqEnd = seqStart + readLength;
+reads = []
 reads = [reads.append(reference[seqStart: seqEnd]) for i in range(numErrors)]
 print(reads)
 # This next line is to check whether a file "shortest.read.length.fasta" exists. If it does, we clear it.
