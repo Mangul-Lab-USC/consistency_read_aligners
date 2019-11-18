@@ -25,8 +25,8 @@ for i in range(numErrors):
     if i == 0:
         continue
     temp = list(reads[i])
-    num = int(readLength/i)
-    count = 0
+    num = int(readLength/i+1)
+    count = 0 + num
     for n in range(i):
         if temp[count] == "A":
             temp[count] = "C"
