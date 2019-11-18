@@ -31,11 +31,11 @@ for i in range(numErrors):
             print(i)
             if temp[count] == "A":
                 temp[count] = "C"
-            if temp[count] == "C":
+            elif temp[count] == "C":
                 temp[count] = "A"
-            if temp[count] == "T":
+            elif temp[count] == "T":
                 temp[count] = "G"
-            if temp[count] == "G":
+            elif temp[count] == "G":
                 temp[count] = "T"
             count += num
         reads[i] = "".join(temp)
