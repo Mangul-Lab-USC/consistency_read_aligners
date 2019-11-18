@@ -20,8 +20,7 @@ numErrors = int(numErrors)
 # The reads are created and incremented in length by the readstep every step of the for loop.
 seqStart = randrange(11, 8500)
 seqEnd = seqStart + readLength;
-reads = []
-reads = [reads.append(reference[seqStart: seqEnd]) for i in range(numErrors)]
+reads = list(itertools.repeat(reference[seqStart: seqEnd], 20))
 print(reads)
 # This next line is to check whether a file "shortest.read.length.fasta" exists. If it does, we clear it.
 fastaShortReadsClear = open("shortest.read.length.fasta", "w").close()
