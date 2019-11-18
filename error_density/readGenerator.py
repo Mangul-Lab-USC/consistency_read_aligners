@@ -20,7 +20,22 @@ numErrors = int(numErrors)
 # The reads are created and incremented in length by the readstep every step of the for loop.
 seqStart = randrange(11, 8500)
 seqEnd = seqStart + readLength;
-reads = list(itertools.repeat(reference[seqStart: seqEnd], 20))
+reads = [reference[seqStart: seqEnd]] * numErrors
+for i in range(numErrors):
+    temp = list(reads[i])
+    num = int(readLength/numErrors)
+    count = 0
+    for n in range(i):
+        if temp[count] == "A":
+            temp[count] = "C"
+        if temp[count] == "C":
+            temp[count] = "A"
+        if temp[count] == "T":
+            temp[count] = "G"
+        if temp[count] == "G":
+            temp[count] = "T"
+        count += num
+    reads[i] = "".join(temp)
 print(reads)
 # This next line is to check whether a file "shortest.read.length.fasta" exists. If it does, we clear it.
 fastaShortReadsClear = open("shortest.read.length.fasta", "w").close()
@@ -57,7 +72,7 @@ for i in range(numErrors):
     # Formatting fastq
     fastqShortReads.write("\n+\n")
     # This is usually a quality score. We will just place tildas since we have created this data.
-    for z in range(len(readLength)):
+    for z in range(readLength):
         fastqShortReads.write("~")
     # Formatting fastq
     fastqShortReads.write("\n")
