@@ -29,6 +29,7 @@ for i in range(numErrors):
     count = 0 + num
     for n in range(i):
         print(count)
+        print(i)
         if temp[count] == "A":
             temp[count] = "C"
         if temp[count] == "C":
