@@ -1,0 +1,35 @@
+/u/home/s/shahar/anaconda3/research/consistency_read_aligners/error_density/reference.fasta /u/home/s/shahar/anaconda3/research/consistency_read_aligners/error_density/reads.toy.example.fasta
+NUCMER
+>Reference R10 1000000 1000
+132 1131 1 1000 10 10 0
+0
+>Reference R0 1000000 1000
+132 1131 1 1000 0 0 0
+0
+>Reference R1 1000000 1000
+132 1131 1 1000 1 1 0
+0
+>Reference R2 1000000 1000
+132 1131 1 1000 2 2 0
+0
+>Reference R3 1000000 1000
+132 1131 1 1000 3 3 0
+0
+>Reference R4 1000000 1000
+132 1131 1 1000 4 4 0
+0
+>Reference R5 1000000 1000
+132 1131 1 1000 5 5 0
+0
+>Reference R6 1000000 1000
+132 1131 1 1000 6 6 0
+0
+>Reference R7 1000000 1000
+132 1131 1 1000 7 7 0
+0
+>Reference R8 1000000 1000
+132 1131 1 1000 8 8 0
+0
+>Reference R9 1000000 1000
+132 1131 1 1000 9 9 0
+0

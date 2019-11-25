@@ -1,0 +1,9 @@
+Reference	razers	read	3463	3562	100	+	.	ID=R0;unique;pairScore=100;cigar=100M
+Reference	razers	read	3463	3562	99	+	.	ID=R1;unique;pairScore=98;cigar=100M;mutations=51A
+Reference	razers	read	3463	3562	98	+	.	ID=R2;unique;pairScore=96;cigar=100M;mutations=34C,67G
+Reference	razers	read	3463	3562	97	+	.	ID=R3;unique;pairScore=94;cigar=100M;mutations=26A,51A,76G
+Reference	razers	read	3463	3562	96	+	.	ID=R4;unique;pairScore=92;cigar=100M;mutations=21T,41T,61A,81C
+Reference	razers	read	3463	3562	95	+	.	ID=R5;unique;pairScore=90;cigar=100M;mutations=17A,33A,49T,65T,81C
+Reference	razers	read	3463	3562	94	+	.	ID=R6;unique;pairScore=88;cigar=100M;mutations=15G,29A,43A,57A,71A,85T
+Reference	razers	read	3463	3562	93	+	.	ID=R7;unique;pairScore=86;cigar=100M;mutations=13G,25T,37G,49T,61A,73A,85T
+Reference	razers	read	3463	3562	92	+	.	ID=R8;unique;pairScore=84;cigar=100M;mutations=12T,23C,34C,45T,56G,67G,78T,89G
