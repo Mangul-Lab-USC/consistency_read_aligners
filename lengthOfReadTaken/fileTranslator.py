@@ -1,6 +1,6 @@
 # Please change this according to the directory you are currently using.
 # Please revise the "files_to_parse.txt" accordingly.
-list_of_files = "/Users/dywk/PycharmProjects/consistency_read_aligners/lengthOfReadTaken/nresults/files.txt"
+list_of_files = "nresults/files.txt"
 # This opens the "files_to_parse.txt", this is the list of files that we want to parse.
 f = open(list_of_files, "r")
 # This opens the file that we're going to write the data to.

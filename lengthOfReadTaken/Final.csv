@@ -1,13 +1,5 @@
 Tool_Name,Lowest,Highest
 bowtie2,10
-Bowtie,10
-bwa,30
-graphmap,100
-minialign,50
-minimap2,50
-ngmlr,20
-ngm,20
-A1segemehl,20
-smalt,30
 
+bwa,30
 

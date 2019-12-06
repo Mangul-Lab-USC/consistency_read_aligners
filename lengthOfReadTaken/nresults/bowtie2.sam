@@ -1,0 +1,13 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:1000000
+@PG	ID:bowtie2	PN:bowtie2	VN:2.2.5	CL:"/u/home/s/shahar/anaconda3/research/consistency_read_aligners/lengthOfReadTaken/../../../bin/bowtie2-align-s --wrapper basic-0 -x reference.fasta -U reads.toy.example.fastq"
+R10	0	Reference	183421	1	10M	*	0	0	TATACGCGGC	~~~~~~~~~~	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:10	YT:Z:UU
+R20	0	Reference	3378	42	20M	*	0	0	TGCCCGGTTAAGTGATGCTC	~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:20	YT:Z:UU
+R30	0	Reference	3061	42	30M	*	0	0	CCGACCTCGTTAGACTGAGCCTAGCTCACG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:30	YT:Z:UU
+R40	0	Reference	6379	42	40M	*	0	0	ACGAGTCGCTATCCCCCAAGGACTCATGGAGAACGCCGTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:40	YT:Z:UU
+R50	0	Reference	6291	42	50M	*	0	0	GTGGCTAGAGAGAAAAGATGACTGACTGTGCGGATCCCCCATCCAGCTGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:50	YT:Z:UU
+R60	0	Reference	7055	42	60M	*	0	0	CTCCCCACAAAGGACTGGATCACAGCCGGGCGTGTGATCGCGAGGTGATACACCATTTCG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:60	YT:Z:UU
+R70	0	Reference	6149	42	70M	*	0	0	CTCCAATCGACCACTGCCGAAGCGCCATGATAGTCCTCGGTAACGGAGGTCAGGTAGGCGTGTGAACCTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:70	YT:Z:UU
+R80	0	Reference	7041	42	80M	*	0	0	TTCATGGTAGTTTTCTCCCCACAAAGGACTGGATCACAGCCGGGCGTGTGATCGCGAGGTGATACACCATTTCGTACTAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:80	YT:Z:UU
+R90	0	Reference	5415	42	90M	*	0	0	TCCACGTCACCATCGCGAGCTTGCGTCGGCGAGCCGAATGCGCAGCTTACCGCTACCGCGGCCCTCAGTACCAGGCGCGCTTCGCTGCTC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:90	YT:Z:UU
+R100	0	Reference	6920	42	100M	*	0	0	AAGTGGGCCAGAGAAAGCTTACCAGCCACGTAGTGAGGACAAGGGCTCAAAAATGTCAAAGATCTGTGACTGCAATCCCCATCGGCTTATCCTGAATCTA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:100	YT:Z:UU
