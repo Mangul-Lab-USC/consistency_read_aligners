@@ -1,0 +1,13 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Reference	LN:1000000
+@PG	ID:Bowtie	VN:0.12.7	CL:"../../../bin/bowtie -S reference reads.toy.example.fastq"
+R10	0	Reference	544	255	10M	*	0	0	ATTGCGTTCT	~~~~~~~~~~	XA:i:0	MD:Z:10	NM:i:0
+R20	0	Reference	7358	255	20M	*	0	0	AAAGAGACTATAGTGGGACC	~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:20	NM:i:0
+R30	0	Reference	2231	255	30M	*	0	0	TGCCCCGCAATTAACTCCGGGGAGAGCGGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:30	NM:i:0
+R40	0	Reference	3037	255	40M	*	0	0	TCTGGGCGAATTCGGTAATACGCGCTCAAGTCCCAGCGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:40	NM:i:0
+R50	0	Reference	3041	255	50M	*	0	0	GGCGAATTCGGTAATACGCGCTCAAGTCCCAGCGCTATTTCCGCCTCACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:50	NM:i:0
+R60	0	Reference	6479	255	60M	*	0	0	ATAACGCGGAGCATGCTTTACCGTGGCGTGGTCATCGAACCGCCGGTGCATACTGACGGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:60	NM:i:0
+R70	0	Reference	3344	255	70M	*	0	0	GTTCCATGCGAATTAGACGGGTCTTCGATAGGAGACACTCCGGAGTGCCTGGCTGGCTAGGTTTGCCCAA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:70	NM:i:0
+R80	0	Reference	2689	255	80M	*	0	0	GTACGCTGTACGGCTCAATTACCTCCTTATAATCGATTTCTGCCAATCGACGGGTGGAACCTGCTAATTGACGTTACCGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:80	NM:i:0
+R90	0	Reference	1150	255	90M	*	0	0	CAGTGATTTCACCCATGAGATTCTCCATATCGGAAGCGCTTCTAACGGTGAACCAGGGCTTCGAGCGACCGTGTTCACCAGAGGCCTAGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:90	NM:i:0
+R100	0	Reference	6115	255	100M	*	0	0	GGGCTCAAGATCCGTAGTTTACGCAAGATCAGGGAAAACTCCTAAATTGCTTAACCTTGCTGCGGGAGTTGCGATCTCGCTTTAAGCCCCGCAGGCTGCG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	XA:i:0	MD:Z:100	NM:i:0

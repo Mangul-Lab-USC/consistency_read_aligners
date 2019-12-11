@@ -1,17 +1,12 @@
 @SQ	SN:Reference	LN:1000000
 @PG	ID:minimap2	PN:minimap2	VN:2.17-r941	CL:minimap2 -a reference.fasta reads.toy.example.fastq
-R34	4	*	0	0	*	*	0	0	TACATATCGTAGTTCTTGTCGAACTAGGGCGGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	rl:i:0
-R38	4	*	0	0	*	*	0	0	ACCCCCTAGGTTTCCCCACTACGCTTCTTTGTTGATCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	rl:i:0
-R42	4	*	0	0	*	*	0	0	ACAGGTCCGCCACAAAGACGACGCTCCTGCCTCGCCGTCCGT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	rl:i:0
-R46	4	*	0	0	*	*	0	0	TGAGCGGAACTTCCTCTCAGTGCCGGCATACCTTTCAGATTCGATA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	rl:i:0
-R50	0	Reference	1589	4	50M	*	0	0	CCCCTCATACGAAGAGGCCCAAAGGAAGGACTACTGGGGAGCCTGCTTTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:100	AS:i:100	nn:i:0	tp:A:P	cm:i:5	s1:i:43	s2:i:0	de:f:0	rl:i:0
-R54	0	Reference	5325	3	54M	*	0	0	TACTATTTATGTGTCTTTGCTGTTGTATCATAGCACTCCTTAATGGGCGTGCAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:108	AS:i:108	nn:i:0	tp:A:P	cm:i:6	s1:i:42	s2:i:0	de:f:0	rl:i:0
-R58	0	Reference	1791	4	58M	*	0	0	AGTTGGCATGCCGCAACTCTCGGCTTGTTGCCTTCCGAACAGCATCGCCACTCCGACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:116	AS:i:116	nn:i:0	tp:A:P	cm:i:7	s1:i:43	s2:i:0	de:f:0	rl:i:0
-R62	0	Reference	3244	21	62M	*	0	0	GACTCTCGGAAACTATCAGTACCTATGAATACCTAGTCGCCTATCGTTTTTCCCACTGCGGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:124	AS:i:124	nn:i:0	tp:A:P	cm:i:7	s1:i:53	s2:i:0	de:f:0	rl:i:0
-R66	0	Reference	4962	18	66M	*	0	0	AGCGGACTGGGGTTCCAAGACTCCAATCCCACGACTTGCTACCGCAAGACTTGCTGTCTATTAGCG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:132	AS:i:132	nn:i:0	tp:A:P	cm:i:8	s1:i:51	s2:i:0	de:f:0	rl:i:0
-R70	0	Reference	4711	45	70M	*	0	0	CCGAGCATGTCCGATACAACACGCTAGTAATCGTTTTAATAAGATACACAGTATACCTGGATGAAAATCC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:140	AS:i:140	nn:i:0	tp:A:P	cm:i:8	s1:i:67	s2:i:0	de:f:0	rl:i:0
-R74	0	Reference	3593	27	74M	*	0	0	TAGCCCCAGTTTTGCCGAACAGCCTCGATTAGCGGGCAACATCCTTGTAGTCATACGGTAGAAATCCAAAATGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:148	AS:i:148	nn:i:0	tp:A:P	cm:i:9	s1:i:56	s2:i:0	de:f:0	rl:i:0
-R78	0	Reference	2043	55	78M	*	0	0	TTAAAAATGATTGATCGTGTGACGTCGCGTAGTCGTGAAAGCATCAGATTTGCTGGCTTGACTATAGGGGCAGTACGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:156	AS:i:156	nn:i:0	tp:A:P	cm:i:10	s1:i:72	s2:i:0	de:f:0	rl:i:0
-R82	0	Reference	2596	54	82M	*	0	0	TGGATACGGTGGAGGAATGTGTCTGATGAGCAGGTCAGGCATACATGGGAGGCGCCAGGTATGTCATAGACTTAACCAACTT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:164	AS:i:164	nn:i:0	tp:A:P	cm:i:12	s1:i:71	s2:i:0	de:f:0	rl:i:0
-R86	0	Reference	3188	60	86M	*	0	0	CCCTGCAACAGACAGGTCGCTTTCCCACTGGGTTACTATAAGAAGCATATTGTCAGGACTCTCGGAAACTATCAGTACCTATGAAT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:172	AS:i:172	nn:i:0	tp:A:P	cm:i:11	s1:i:84	s2:i:0	de:f:0	rl:i:0
-R90	0	Reference	5164	60	90M	*	0	0	CGCGCTGATAGCAATCGCGCTCGGTACTACTAAGTACCGCCAGAAACAAAACACACATACGCCAACGCGGTGAGATGCATGTAAGTGATC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:180	AS:i:180	nn:i:0	tp:A:P	cm:i:12	s1:i:74	s2:i:0	de:f:0	rl:i:0
+R10	4	*	0	0	*	*	0	0	ATTGCGTTCT	~~~~~~~~~~	rl:i:0
+R20	4	*	0	0	*	*	0	0	AAAGAGACTATAGTGGGACC	~~~~~~~~~~~~~~~~~~~~	rl:i:0
+R30	4	*	0	0	*	*	0	0	TGCCCCGCAATTAACTCCGGGGAGAGCGGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	rl:i:0
+R40	4	*	0	0	*	*	0	0	TCTGGGCGAATTCGGTAATACGCGCTCAAGTCCCAGCGCT	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	rl:i:0
+R50	0	Reference	3041	3	50M	*	0	0	GGCGAATTCGGTAATACGCGCTCAAGTCCCAGCGCTATTTCCGCCTCACA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:100	AS:i:100	nn:i:0	tp:A:P	cm:i:7	s1:i:42	s2:i:0	de:f:0	rl:i:0
+R60	0	Reference	6479	19	60M	*	0	0	ATAACGCGGAGCATGCTTTACCGTGGCGTGGTCATCGAACCGCCGGTGCATACTGACGGG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:120	AS:i:120	nn:i:0	tp:A:P	cm:i:7	s1:i:52	s2:i:0	de:f:0	rl:i:0
+R70	0	Reference	3344	28	70M	*	0	0	GTTCCATGCGAATTAGACGGGTCTTCGATAGGAGACACTCCGGAGTGCCTGGCTGGCTAGGTTTGCCCAA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:140	AS:i:140	nn:i:0	tp:A:P	cm:i:10	s1:i:57	s2:i:0	de:f:0	rl:i:0
+R80	0	Reference	2689	50	80M	*	0	0	GTACGCTGTACGGCTCAATTACCTCCTTATAATCGATTTCTGCCAATCGACGGGTGGAACCTGCTAATTGACGTTACCGC	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:160	AS:i:160	nn:i:0	tp:A:P	cm:i:10	s1:i:69	s2:i:0	de:f:0	rl:i:0
+R90	0	Reference	1150	60	90M	*	0	0	CAGTGATTTCACCCATGAGATTCTCCATATCGGAAGCGCTTCTAACGGTGAACCAGGGCTTCGAGCGACCGTGTTCACCAGAGGCCTAGA	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:180	AS:i:180	nn:i:0	tp:A:P	cm:i:16	s1:i:77	s2:i:0	de:f:0	rl:i:0
+R100	0	Reference	6115	60	100M	*	0	0	GGGCTCAAGATCCGTAGTTTACGCAAGATCAGGGAAAACTCCTAAATTGCTTAACCTTGCTGCGGGAGTTGCGATCTCGCTTTAAGCCCCGCAGGCTGCG	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	NM:i:0	ms:i:200	AS:i:200	nn:i:0	tp:A:P	cm:i:18	s1:i:92	s2:i:0	de:f:0	rl:i:0

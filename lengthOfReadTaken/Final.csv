@@ -1,11 +1,7 @@
 Tool_Name,Lowest,Highest
 bowtie2,10
 bwa,30
-
-
+graphmap,100
+minialign,50
 minimap2,50
-
-smalt,30
-FASTQSNAP,375,240,240,240,240,240,240,240,240
-
-
+FASTQSNAP,50
