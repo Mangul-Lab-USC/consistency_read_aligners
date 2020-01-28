@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="b3eabcd9-8681-49e8-8824-eda48b003226" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Final.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileTranslator.py" beforeDir="false" afterPath="$PROJECT_DIR$/fileTranslator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-dir/Genome" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/Genome" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndex" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-dir/GenomeIndexHash" beforeDir="false" afterPath="$PROJECT_DIR$/index-dir/GenomeIndexHash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bowtie.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bowtie2.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bowtie2.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/bwa.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/bwa.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/files.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/files.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/graphmap.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/graphmap.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/minialign.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/minialign.sam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nresults/minimap2.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/minimap2.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/smalt.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/smalt.sam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nresults/snap.sam" beforeDir="false" afterPath="$PROJECT_DIR$/nresults/snap.sam" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reference.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/reference.fasta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fasta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortest.read.length.fastq" beforeDir="false" afterPath="$PROJECT_DIR$/shortest.read.length.fastq" afterDir="false" />
