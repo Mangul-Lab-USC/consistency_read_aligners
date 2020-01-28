@@ -1,20 +1,20 @@
 /u/home/s/shahar/anaconda3/research/consistency_read_aligners/unmapped/reference.fasta /u/home/s/shahar/anaconda3/research/consistency_read_aligners/unmapped/reads.toy.example.fasta
 NUCMER
 >Reference short1 1000000 75
-2032 2106 1 75 0 0 0
+2714 2788 1 75 0 0 0
 0
 >Reference short2 1000000 75
-1590 1664 1 75 0 0 0
+2480 2554 1 75 0 0 0
 0
 >Reference short3 1000000 75
-2215 2289 1 75 0 0 0
+544 618 1 75 0 0 0
 0
 >Reference long1 1000000 1000
-250 1249 1 1000 0 0 0
+455 1454 1 1000 0 0 0
 0
 >Reference long2 1000000 1000
-1954 2953 1 1000 0 0 0
+1862 2861 1 1000 0 0 0
 0
 >Reference long3 1000000 1000
-2712 3711 1 1000 0 0 0
+2232 3231 1 1000 0 0 0
 0
